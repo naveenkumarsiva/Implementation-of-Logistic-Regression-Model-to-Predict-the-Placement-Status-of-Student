@@ -77,6 +77,7 @@ Data after dropping unwanted columns(first five):
 Checking the presence of null values:
 
 ![exp4](o3.png)
+
 Checking the presence of duplicated values:
 
 ![exp5](o4.png)
@@ -85,21 +86,34 @@ Checking the presence of duplicated values:
 
 
 Data after Encoding:
+
 ![exp1](o5.png)
+
 X Data:
+
 ![exp6](o6.png)
+
 Y Data:
+
 ![exp7](o7.png)
+
 Predicted Values:
+
 ![exp8](o8.png)
+
 Accuracy Score:
 
 ![exp9](o9.png)
 
+
 Confusion Matrix:
+
 ![exp10](o10.png)
+
 Classification Report:
+
 ![exp11](o11.png)
+
 Predicting output from Regression Model:
 
 ![exp11](o12.png)
