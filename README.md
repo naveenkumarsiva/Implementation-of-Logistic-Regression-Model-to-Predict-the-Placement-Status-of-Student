@@ -51,7 +51,7 @@ print(y)
 from sklearn.model_selection import train_test_split  
 x_train,x_test,y_train,y_test = train_test_split(x,y,test_size = 0.2,random_state = 0)
 from sklearn.linear_model import LogisticRegression
-lr = LogisticRegression(solver = "liblinear")     
+lr = LogisticRegression(solver = "liblinear")           #liblinear-library for larger linear classification
 lr.fit(x_train,y_train)
 y_pred = lr.predict(x_test)
 print(y_pred)
@@ -68,13 +68,32 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 */
 ```
 
-
 ## Output:
-![exp3](output1.png)
-![exp](output2.png)
-![exp4](output3.png)
-![exp5](output4.png)
-![exp1](output5.png)
+Original data(first five columns):
+![exp3](o1.png)
+Data after dropping unwanted columns(first five):
+![exp](o2.png)
+Checking the presence of null values:
+![exp4](o3.png)
+Checking the presence of duplicated values:
+![exp5](o4.png)
+Data after Encoding:
+![exp1](o5.png)
+X Data:
+![exp6](o6.png)
+Y Data:
+![exp7](o7.png)
+Predicted Values:
+![exp8](o8.png)
+Accuracy Score:
+![exp9](o9.png)
+Confusion Matrix:
+![exp10](o10.png)
+Classification Report:
+![exp11](o11.png)
+Predicting output from Regression Model:
+![exp11](o12.png)
+
 
 
 ## Result:
