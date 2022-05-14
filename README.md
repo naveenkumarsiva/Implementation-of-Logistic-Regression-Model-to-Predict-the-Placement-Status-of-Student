@@ -73,10 +73,17 @@ Original data(first five columns):
 ![exp3](o1.png)
 Data after dropping unwanted columns(first five):
 ![exp](o2.png)
+
 Checking the presence of null values:
+
 ![exp4](o3.png)
 Checking the presence of duplicated values:
+
 ![exp5](o4.png)
+
+
+
+
 Data after Encoding:
 ![exp1](o5.png)
 X Data:
@@ -86,12 +93,15 @@ Y Data:
 Predicted Values:
 ![exp8](o8.png)
 Accuracy Score:
+
 ![exp9](o9.png)
+
 Confusion Matrix:
 ![exp10](o10.png)
 Classification Report:
 ![exp11](o11.png)
 Predicting output from Regression Model:
+
 ![exp11](o12.png)
 
 
